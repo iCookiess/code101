@@ -1,6 +1,6 @@
 <p align="center"><img src="icon.png" width="128" alt=""></p>
 
-# Учебник101 Python
+# code101
 
 Редактор Python для уроков и ЕГЭ. Внутри настоящий Python 3.14, интернет не нужен.
 
@@ -14,13 +14,13 @@
 
 | Система | Файл |
 |---|---|
-| Windows | [uchebnik101-python-win-x64.exe](https://github.com/iCookiess/uchebnik101-python/releases/latest/download/uchebnik101-python-win-x64.exe) |
-| Mac с процессором Apple (M1–M4) | [uchebnik101-python-mac-arm64.dmg](https://github.com/iCookiess/uchebnik101-python/releases/latest/download/uchebnik101-python-mac-arm64.dmg) |
-| Mac с процессором Intel | [uchebnik101-python-mac-x64.dmg](https://github.com/iCookiess/uchebnik101-python/releases/latest/download/uchebnik101-python-mac-x64.dmg) |
-| Linux (Ubuntu, Debian) | [uchebnik101-python-linux-amd64.deb](https://github.com/iCookiess/uchebnik101-python/releases/latest/download/uchebnik101-python-linux-amd64.deb) |
-| Linux (другие) | [uchebnik101-python-linux-x86_64.AppImage](https://github.com/iCookiess/uchebnik101-python/releases/latest/download/uchebnik101-python-linux-x86_64.AppImage) |
+| Windows | [code101-win-x64.exe](https://github.com/iCookiess/code101/releases/latest/download/code101-win-x64.exe) |
+| Mac с процессором Apple (M1–M4) | [code101-mac-arm64.dmg](https://github.com/iCookiess/code101/releases/latest/download/code101-mac-arm64.dmg) |
+| Mac с процессором Intel | [code101-mac-x64.dmg](https://github.com/iCookiess/code101/releases/latest/download/code101-mac-x64.dmg) |
+| Linux (Ubuntu, Debian) | [code101-linux-amd64.deb](https://github.com/iCookiess/code101/releases/latest/download/code101-linux-amd64.deb) |
+| Linux (другие) | [code101-linux-x86_64.AppImage](https://github.com/iCookiess/code101/releases/latest/download/code101-linux-x86_64.AppImage) |
 
-Все версии — в разделе [Releases](https://github.com/iCookiess/uchebnik101-python/releases).
+Все версии — в разделе [Releases](https://github.com/iCookiess/code101/releases).
 
 ## Первый запуск
 
@@ -31,15 +31,15 @@
 **Mac.** Откройте .dmg и перетащите программу в «Программы». Запустите её. Если Mac пишет, что не может проверить разработчика, откройте «Системные настройки» → «Конфиденциальность и безопасность», внизу нажмите «Всё равно открыть» и подтвердите паролем. Если Mac пишет, что программа «повреждена», откройте «Терминал», выполните команду и запустите снова:
 
 ```
-xattr -cr "/Applications/Учебник101 Python.app"
+xattr -cr "/Applications/code101.app"
 ```
 
-**Linux.** Файл .deb: двойной щелчок или `sudo apt install ./uchebnik101-python-linux-amd64.deb`. Файл .AppImage: в свойствах файла разрешите запуск как программы (или `chmod +x`), затем двойной щелчок.
+**Linux.** Файл .deb: двойной щелчок или `sudo apt install ./code101-linux-amd64.deb`. Файл .AppImage: в свойствах файла разрешите запуск как программы (или `chmod +x`), затем двойной щелчок.
 
 ## Открывать .py двойным щелчком
 
-**Windows:** правой кнопкой по .py → «Открыть с помощью» → «Выбрать другое приложение» → «Учебник101 Python», галочка «Всегда».
-**Mac:** правой кнопкой по .py → «Свойства» → «Открывать в программе» → «Учебник101 Python» → «Заменить все».
+**Windows:** правой кнопкой по .py → «Открыть с помощью» → «Выбрать другое приложение» → «code101», галочка «Всегда».
+**Mac:** правой кнопкой по .py → «Свойства» → «Открывать в программе» → «code101» → «Заменить все».
 **Linux:** после установки .deb программа уже есть в списке «Открыть с помощью».
 
 ---
